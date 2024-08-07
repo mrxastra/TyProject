@@ -1,0 +1,37 @@
+.container {
+  max-width: 144rem;
+  padding: 4.2rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 3.2rem;
+}
+.color {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 200;
+}
+.color:hover {
+  color: white;
+}
+.navbar {
+  overflow: hidden;
+  /* background: radial-gradient(
+    997px at 99.9% 96.8%,
+    rgb(125, 253, 195) 0%,
+    rgb(11, 234, 250) 90%
+  );*/
+  background: linear-gradient(-225deg, #87b5fa 0%, #5de3f5 48%, #6bbbff 100%);
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  height: 100px;
+}
+.start {
+  position: fixed;
+}

@@ -1,0 +1,23 @@
+.back {
+  background: radial-gradient(
+    997px at 99.9% 96.8%,
+    rgb(216, 244, 231) 0%,
+    rgb(175, 255, 238) 90%
+  );
+}
+.info {
+  background-color: rgb(255, 250, 250);
+  border-radius: 5px 5px 5px 5px;
+  height: 35px;
+  width: 450px;
+  position: relative;
+  top: 1em;
+  left: 1em;
+}
+.option {
+  height: 30px;
+  width: 200px;
+  background-color: black;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}

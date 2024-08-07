@@ -1,0 +1,259 @@
+.back {
+  background-color: white;
+  overflow-y: scroll;
+}
+
+section2 {
+  display: grid;
+  place-items: center;
+}
+.instruct {
+  position: relative;
+  left: 2em;
+  top: 1em;
+  line-height: 2;
+  font-style: italic;
+}
+.star {
+  color: red;
+  display: inline-block;
+  font-weight: bold;
+}
+.element {
+  background: inherit;
+  position: relative;
+  left: 3em;
+  top: 2em;
+  width: 600px;
+  height: 100px;
+  color: black;
+  font-size: large;
+}
+.vas {
+  width: 500px;
+  height: 200px;
+  left: 3em;
+  position: relative;
+  top: 2em;
+  color: black;
+  font-size: large;
+}
+.deformities {
+  width: 500px;
+  height: 400px;
+  left: 3em;
+  position: relative;
+  top: 2em;
+  color: black;
+  font-size: large;
+}
+.medical {
+  width: 500px;
+  height: 100px;
+  left: 3em;
+  position: relative;
+  top: 2em;
+  color: black;
+  font-size: large;
+}
+.strength {
+  width: 500px;
+  height: 500px;
+  left: 0.2em;
+  position: relative;
+  top: 2em;
+  color: black;
+  font-size: large;
+}
+.strength-box {
+  background-color: rgb(251, 246, 246);
+
+  width: 700px;
+  height: 700px;
+  border: 0.1px solid grey;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  top: 5px;
+  line-height: 1.8;
+}
+.strength-table {
+  width: 500px;
+  line-height: 3;
+
+  left: 3em;
+  position: relative;
+  top: 2em;
+  color: black;
+  font-size: large;
+}
+.submit {
+  position: relative;
+  bottom: 8em;
+}
+.deformities-box {
+  background-color: rgb(251, 246, 246);
+
+  width: 700px;
+  height: 300px;
+  border: 0.1px solid grey;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  top: 5px;
+  line-height: 1.8;
+}
+
+.medical-box {
+  background-color: rgb(251, 246, 246);
+
+  width: 700px;
+  height: 200px;
+  border: 0.1px solid grey;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  top: 5px;
+  line-height: 1.8;
+}
+
+.box {
+  background-color: rgb(251, 246, 246);
+
+  width: 700px;
+  height: 34px;
+  border: 0.1px solid grey;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  top: 5px;
+}
+
+.vasbox {
+  background-color: rgb(251, 246, 246);
+
+  width: 700px;
+  height: 94px;
+  border: 0.1px solid grey;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  top: 5px;
+}
+.box1 {
+  background-color: rgb(251, 246, 246);
+  width: 700px;
+  height: 35px;
+  border: 0.1px solid grey;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  top: 5px;
+}
+.back2 {
+  font-size: 20px;
+  background-color: rgb(187, 241, 247);
+  color: black;
+  position: relative;
+  width: 900px;
+  height: 20370px;
+  margin: auto;
+  border-radius: 4px 4px 4px 4px;
+  top: 1em;
+  border: 2px solid black;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 3px;
+}
+.back3 {
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  position: relative;
+  width: 900px;
+  height: 300px;
+  margin: auto;
+  border-radius: 4px 4px 4px 4px;
+  top: 1em;
+  border: 2px solid black;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 3px;
+}
+.radio {
+  display: inline-block;
+  width: 60px;
+  height: 15px;
+  accent-color: blue;
+}
+
+.radio1 {
+  width: 60px;
+  height: 15px;
+  accent-color: blue;
+}
+.strength-tabular {
+  width: 690px;
+  height: 760px;
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(odd) {
+    background-color: #ffffff; /* Set your desired background color */
+  }
+}
+.Tightness-tabular {
+  width: 695px;
+
+  text-align: center;
+  height: 460px;
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(odd) {
+    background-color: #ffffff; /* Set your desired background color */
+  }
+}
+.nrs {
+  width: 500px;
+  height: 250px;
+  left: 2.8em;
+  position: relative;
+
+  color: black;
+  font-size: large;
+}
+.nrsbox {
+  background-color: rgb(251, 246, 246);
+
+  width: 730px;
+  height: 170px;
+  border: 0.1px solid grey;
+  position: relative;
+
+  border-radius: 4px 4px 4px 4px;
+
+  line-height: 1.8;
+}
+.nrs-table {
+  text-align: center;
+  width: 200px;
+  position: relative;
+  left: 0.2em;
+
+  height: 160px;
+  font-size: medium;
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(odd) {
+    background-color: #ffffff; /* Set your desired background color */
+  }
+}
+
+.checkbox {
+  background-color: white;
+}
+.button {
+  height: 40px;
+  width: 90px;
+  background-color: red;
+  position: relative;
+  bottom: -58em;
+}
+.align {
+  text-align: center;
+  height: 10px;
+}
